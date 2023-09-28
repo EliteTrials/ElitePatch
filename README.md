@@ -13,13 +13,13 @@ The Elite Patch intends to enhance the gameplay by taking away undesired feature
 When applied, this patch will:
 
 * Override Engine.Projectile.Touch
-  - Disables Touch for allied pawns
+  - Disables Touch for allied pawns, this prevents the projectile from exploding on pawns of the same team.
     
 * Override Engine.Projectile.HurtRadius
-  - Disables HurtRadius for allied pawns
+  - Disables HurtRadius for allied pawns, this prevents the projectile from dealing damage to pawns of the same team.
     
 * Override XWeapons.InstantFire.DoTrace
-  - Disables HitScan for allied pawns
+  - Disables HitScan for allied pawns, this prevents the hitscan from being blocked by pawns of the same team. (experimental, currently limited to one blocking pawn)
 
 #### Usage
 
