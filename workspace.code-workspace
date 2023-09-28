@@ -1,0 +1,16 @@
+{
+	"folders": [
+        {
+            "name": "ElitePatch",
+            "path": "."
+        },
+        {
+            "name": "Unflect",
+            "path": "../Unflect"
+        },
+        {
+            "path": "D:/Projecten/UE3/UT2004_3369"
+        }
+    ],
+    "settings": {}
+}
