@@ -1,1 +1,1 @@
-#exec obj load file=../Unflect/System/Unflect.u package=ElitePatch
+#exec obj load file=./System/Unflect.u package=ElitePatch
