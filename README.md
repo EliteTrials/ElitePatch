@@ -12,13 +12,13 @@ The Elite Patch intends to enhance the gameplay by taking away undesired feature
 
 When applied, this patch will:
 
-* Override Engine.Projectile.Touch
+* Override `Engine.Projectile.Touch`
   - Disables Touch for allied pawns, this prevents the projectile from exploding on pawns of the same team.
     
-* Override Engine.Projectile.HurtRadius
+* Override `Engine.Projectile.HurtRadius`
   - Disables HurtRadius for allied pawns, this prevents the projectile from dealing damage to pawns of the same team.
     
-* Override XWeapons.InstantFire.DoTrace
+* Override `XWeapons.InstantFire.DoTrace`
   - Disables HitScan for allied pawns, this prevents the hitscan from being blocked by pawns of the same team. (experimental, currently limited to one blocking pawn)
 
 #### Usage
@@ -29,6 +29,13 @@ Enable by appending `ElitePatchActor` to your server's mutator option e.g.
 ```bat
 ?Mutator=ElitePatch.ElitePatchActor
 ```
+
+## Build
+
+Clone the repository to your `/UT2004Root/`, and run `Make.bat`, it should be located at `/UT2004Root/ElitePatch/Make.bat`.
+
+This will make a `ElitePatch.u` using a local copy of `Unflect.u` that is included within the local `/System/` directory, 
+the patch file should have been copied to both the local `/System/` directory as well as your `/UT2004Root/System/` directory.
 
 ## Credits
 
