@@ -27,7 +27,7 @@ Install by placing `ElitePatch.u` in `/UT2004Root/System/`
 
 Enable by appending `ElitePatchActor` to your server's mutator option e.g.
 ```bat
-?Mutator=ElitePatchActor.uc
+?Mutator=ElitePatch.ElitePatchActor
 ```
 
 ## Credits
