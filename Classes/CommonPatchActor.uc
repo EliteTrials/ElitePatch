@@ -6,3 +6,9 @@
 */
 class CommonPatchActor extends PatchActor
     config(CommonPatch);
+
+defaultproperties
+{
+    /** Enhances how we deal with double click moves */
+    LocalPatches(0)=(Source=Function'Engine.PlayerInput.CheckForDoubleClickMove',Destination=Function'PlayerInputProxy.CheckForDoubleClickMove')
+}
