@@ -3,7 +3,9 @@
  * * Don't explode on touch for pawns of the same team.
  * * Don't deal radius damage to pawns of the same team.
  */
-class ProjectileProxy extends Engine.Projectile;
+class ProjectileProxy extends Engine.Projectile
+    abstract
+    cacheexempt;
 
 simulated singular event Touch(Actor Other)
 {

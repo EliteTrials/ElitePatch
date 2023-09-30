@@ -1,4 +1,6 @@
-class InstantFireProxy extends InstantFire;
+class InstantFireProxy extends InstantFire
+    abstract
+    cacheexempt;
 
 function DoTrace(Vector Start, Rotator Dir)
 {
